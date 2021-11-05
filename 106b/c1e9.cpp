@@ -15,7 +15,8 @@ int main () {
 
     int n = 0; 
     int factor = 1; 
-    std::cout << "This program factors a number." << std::endl; 
+    std::cout << "This program factors a number into products of prime numbers."
+              << std::endl; 
     std::cout << "Enter a positive integer to be factored: ";
     std::cin >> n; 
     // find all prime numbers upto n
