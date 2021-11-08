@@ -39,3 +39,6 @@
 !*.cpp
 !*.md
 !*.h 
+week1/build/*
+!week1/*.cc
+!*.txt
