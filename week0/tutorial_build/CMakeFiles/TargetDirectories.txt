@@ -1,0 +1,3 @@
+/home/michael/github/cs106/week0/tutorial_build/CMakeFiles/tutorial.dir
+/home/michael/github/cs106/week0/tutorial_build/CMakeFiles/edit_cache.dir
+/home/michael/github/cs106/week0/tutorial_build/CMakeFiles/rebuild_cache.dir
