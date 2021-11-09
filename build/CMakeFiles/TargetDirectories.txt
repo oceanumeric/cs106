@@ -1,0 +1,7 @@
+/home/michael/github/cs106/build/CMakeFiles/stanford.dir
+/home/michael/github/cs106/build/CMakeFiles/edit_cache.dir
+/home/michael/github/cs106/build/CMakeFiles/rebuild_cache.dir
+/home/michael/github/cs106/build/CMakeFiles/list_install_components.dir
+/home/michael/github/cs106/build/CMakeFiles/install.dir
+/home/michael/github/cs106/build/CMakeFiles/install/local.dir
+/home/michael/github/cs106/build/CMakeFiles/install/strip.dir
