@@ -9,7 +9,7 @@ CS106 from Stanford:
 
 Steps to use stanford libraries.
 
-0. Make sure you have cmake installed (If it is not installed and it is your personal laptop, install using: sudo apt install cmake . For machines in CSC or LHC labs, ignore this step)
+0. Make sure you have cmake installed (If it is not installed and it is your personal laptop, install using: sudo apt install cmake. 
 
 1. Right click and select open in terminal in the folder you have just extracted
 
