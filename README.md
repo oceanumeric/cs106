@@ -13,11 +13,13 @@ Steps to use stanford libraries.
 
 0. Make sure you have cmake installed (If it is not installed and it is your personal laptop, install using: sudo apt install cmake. 
 
-1. Right click and select open in terminal in the folder you have just extracted
+1. download `stanford.zip` and unzip it. 
 
-2. Run build.sh by typing ./build.sh on the terminal
+2. Right click and select open in terminal in the folder you have just extracted
 
-3. The stanford libaries will install in a while and successfull installation will print that libraries are installed.
+3. Run build.sh by typing ./build.sh on the terminal
+
+4. The stanford libaries will install in a while and successfull installation will print that libraries are installed.
 
 
 
