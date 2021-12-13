@@ -1,0 +1,5 @@
+This is to test the algorithm algorithm of words frequency :) 
+I'm trying to write an algorithm to calculate the frequency of words
+Say this is a text file and it stores different words.
+Those words create stroies. 
+Oh la la. 
