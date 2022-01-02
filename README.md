@@ -33,6 +33,6 @@ Compilation instructions
 
 ## C++ Reference:
 
-A good website: https://isocpp.org/
-Algorithm Resources: https://www.ics.uci.edu/~goodrich/
+* A good website: https://isocpp.org/
+* Algorithm Resources: https://www.ics.uci.edu/~goodrich/
 
