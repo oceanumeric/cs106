@@ -1,5 +1,5 @@
 /*
-Impementing Binary Tree 
+Implement Binary Tree 
 Reference: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/
 */
 #ifndef BST_H
