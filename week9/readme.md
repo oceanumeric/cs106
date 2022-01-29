@@ -35,3 +35,11 @@ When a graph has a large number of edges, we will have m ~= n × n. Then no matt
 
 
 ### DFS 
+
+
+### C++ Tips
+
+```cpp
+std::vector<int>* adj;  // a pointer to an an array that containing adjancy lists
+adj = new std::vector<int>[V];  // array with size of V 
+```
