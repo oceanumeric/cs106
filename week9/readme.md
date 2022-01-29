@@ -28,6 +28,8 @@ Commonly used data structures for graphs:
 * Adjacency list: running time - O(m+n)
 * Adjacency matrix: running time - O(n^2)
 
+When a graph has a large number of edges, we will have m ~= n × n. Then no matter which representation you choose, the running time will be O(n × n)
+
 
 ### BFS 
 
