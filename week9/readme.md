@@ -43,3 +43,29 @@ When a graph has a large number of edges, we will have m ~= n × n. Then no matt
 std::vector<int>* adj;  // a pointer to an an array that containing adjancy lists
 adj = new std::vector<int>[V];  // array with size of V 
 ```
+
+In C++, there is near to no distinction between arrays and pointers
+```cpp
+#include <iostream>
+using namespace std;
+
+
+void change_last(int array[]) {
+    array[6] = 9;
+}
+
+
+int main()
+{
+    int size = 7;
+    int array1[size]; 
+    for (int i = 0; i < size; i++) {
+        array1[i] = 0;
+    }
+    
+    change_last(array1);
+    
+    cout << array1[6] << "\n";  // it will print 9 
+}
+
+```
