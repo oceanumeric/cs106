@@ -69,3 +69,7 @@ int main()
 }
 
 ```
+
+### References:
+
+* https://www.algotree.org/algorithms/tree_graph_traversal/depth_first_search/cycle_detection_in_directed_graphs/
