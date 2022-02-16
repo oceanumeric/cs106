@@ -33,8 +33,11 @@ When a graph has a large number of edges, we will have m ~= n × n. Then no matt
 
 ### BFS 
 
+The BFS algorithm is more akin to sending out, in all directions. 
 
 ### DFS 
+
+The DFS follows one specific path for reaching to the end before exploring other vertices. 
 
 
 ### C++ Tips
