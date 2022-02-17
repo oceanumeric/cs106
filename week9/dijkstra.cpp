@@ -5,6 +5,10 @@
 #include <vector>
 #define INF 0x3f3f3f3f  // heximal number for  1061109567
 
+/*
+The set works as the priority queue which prioritize the vertice
+with the minimum distance 
+*/
 
 class Graph {
     int V;  // number of vertices 
@@ -50,20 +54,25 @@ void Graph::shortest_path(int src) {
     // a vector for storing path
     std::vector<int> parent(V, -1);
 
+     // set maintains the elements in ascending order
+    // That's why we did s.insert({d[v],v}); and not s.insert({v,d[v]});
+    // by default the pairs are sorted by the first value
+    // (if the first values are equal then by the second value)
+
     setds.insert(std::make_pair(0, src));
     dist[src] = 0;
 
     while (!setds.empty()) {
+        // extract the vertices with the minimum distance 
         std::pair<int, int> temp = *(setds.begin());
         setds.erase(setds.begin());
 
         int u = temp.second;
 
         // get all adjacent vertices of a vertext 
-        std::list<std::pair<int, int> >::iterator i;
-        for (i = adj[u].begin(); i != adj[u].end(); ++i) {
-            int v = (*i).first;
-            int weight = (*i).second;
+        for (auto elem : adj[u]) {
+            int v = elem.first;
+            int weight = elem.second;
 
             if (dist[v] > dist[u] + weight) {
                 if (dist[v] != INF) {
@@ -87,6 +96,20 @@ void Graph::shortest_path(int src) {
 
 
 int main() {
+    // set are sorted based on the first value of pairs
+    // in
+    std::set<std::pair<int, int>> s2; 
+    s2.insert(std::make_pair(5, 0)); 
+    s2.insert(std::make_pair(3, 1)); 
+    for (auto elem : s2) {
+        std::cout << '(' << elem.first << ' ' << elem.second << ")\n"; 
+    }
+    std::set<int> s1;
+    s1.insert(8);
+    s1.insert(3);
+    for (auto elem : s1) {
+        std::cout << elem << "\n"; 
+    }
     Graph g(5);
     g.add_edge(0, 1, 5);
     g.add_edge(0, 2, 10);
@@ -95,7 +118,7 @@ int main() {
     g.add_edge(2, 3, 2);
     g.add_edge(3, 4, 3);
 
-    g.shortest_path(3);
+    g.shortest_path(4);
 
     return 0;
 }
